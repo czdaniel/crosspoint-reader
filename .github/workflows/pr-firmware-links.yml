@@ -65,6 +65,7 @@ jobs:
               { name: 'firmware-sticky.bin', device: 'Sticky' },
               { name: 'firmware-x4pro.bin', device: 'X4 Pro' },
               { name: 'firmware-papermono.bin', device: 'Paper Mono' },
+              { name: 'firmware-murphy-m4.bin', device: 'Murphy M4' },
             ];
             const { data: artifactResponse } =
               await github.rest.actions.listWorkflowRunArtifacts({
